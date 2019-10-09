@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap");
+
+.App {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 20vmin;
+  pointer-events: none;
+  padding-bottom: 3em;
+}
+
+.App-header {
+  background-color: whitesmoke;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #282c34;
+}
+
+.App-title {
+  padding-bottom: 2em;
+  padding-top: 0.5em;
+  font-family: 'Roboto Slab', serif;
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.number-input{
+  padding-left: 0.5em;
+}
+
+.number-input,
+.submit-btn {
+  margin-bottom: 1em;
+}
+.credits {
+  font-size: 0.5em;
+}
